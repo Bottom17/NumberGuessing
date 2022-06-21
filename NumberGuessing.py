@@ -45,9 +45,9 @@ while True:
         if number_of_guesses >= 10:
             print("You guessed the number in", number_of_guesses, "guesses, better luck next time.")
         break
-    # If the number guessed if bigger than the number print above
+    # If the number guessed is bigger than the number print above
     elif user_guess > random_number:
         print("You were above the number. Keep trying.")    
-    # If the number guessed if smaller than the number print below
+    # If the number guessed is smaller than the number print below
     else:
         print("You were below the number. Keep trying.")
